@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.dish_card{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #494544 0%, #494544 100%);
+    overflow: hidden;
+
+    width: 325px;
+    height: 385px;
+    border-radius: 10px;
+}
+
+.dish_cover{
+    max-width: 325px;
+    overflow: hidden;
+}
+
+.dish_img{
+    width: 100%;
+    transform: rotate(-90deg) translateX(40%);
+    object-fit: cover;
+}
+
+.dish_info{
+    margin: auto 20px 15px;
+}
+
+.width_set{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dish_headline{
+    margin: 5px auto;
+    height: 40px;
+}
+
+.text-style{
+    font-family: Gilroy;
+    font-style: normal;
+    color: #FFF;
+}
+
+.dish_name{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.weight{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description{
+    color: #CFCFCF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px; /* 130.769% */
+}
+
+.buy{
+    height: 44px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.add_dish {
+    display: flex;
+    width: 137px;
+    height: 44px;
+    border: 0;
+    border-radius: 16px;
+    background: linear-gradient(rgb(97, 137, 103), rgb(114, 164, 121));
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cart{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
