@@ -1,0 +1,36 @@
+.carousel_menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel_headline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.vertical_line{
+    width: 33px;
+    height: 4px;
+    transform: rotate(90deg);
+    background: #618967;
+}
+
+.cold_snacks{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.dishes_scroll{
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+}
+
+.dishes_scroll::-webkit-scrollbar {
+    display: none;
+}

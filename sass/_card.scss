@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    background: linear-gradient(0deg, #211F20 0%, #44403F 100%);
 }
 
 .dish_card{
@@ -13,6 +14,7 @@ body{
     overflow: hidden;
 
     width: 325px;
+    max-width: fixed;
     height: 385px;
     border-radius: 10px;
 }
@@ -24,7 +26,7 @@ body{
 
 .dish_img{
     width: 100%;
-    transform: rotate(-90deg) translateX(40%);
+    height: 220px;
     object-fit: cover;
 }
 
